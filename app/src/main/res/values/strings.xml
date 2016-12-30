@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DucklingPlayer</string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="pause">||</string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="playpause">||</string>
+    <string name="previous"><![CDATA[|<<]]></string>
+    <string name="next"><![CDATA[>>|]]></string>
+</resources>

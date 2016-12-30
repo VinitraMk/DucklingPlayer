@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_icon_play">&#xf04b;</string>
+    <string name="fa_icon_pause">&#xf04c;</string>
+    <string name="fa_icon_forward">&#xf04e;</string>
+    <string name="fa_icon_rewind">&#xf04a;</string>
+    <string name="fa_icon_next">&#xf051;</string>
+    <string name="fa_icon_previous">&#xf048;</string>
+
+</resources>
