@@ -57,38 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
-        askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,MY_PERMISSION_REQUEST_WRITE_EXTERNAL_STORAGE);
-        /*imgbutton=(ImageButton)findViewById(R.id.nowplaying);
-        imgbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent ti=new Intent(MainActivity.this,PlayerActivity.class);
-                ti.addFlags(ti.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                startActivity(ti);
-            }
-        });*/
-        /*if (isExternalStorageReadable())
-            path = Environment.getExternalStorageDirectory().getAbsolutePath();
-        File file = new File(path);
-        chkDirectories(file);
-        File root= new File(rootpath);
-        getExtrnlDirs(root);
-        if(extpath!=null)
-        {
-            File ext=new File(extpath);
-            chkExtrnlDirs(ext);
-        }
-        for(int i=0;i<playlist.size();i++)
-        {
-            for(int j=1;j<(playlist.size()-i);j++)
-            {
-                if((playlist.get(j).getsongname().compareTo(playlist.get(j-1).getsongname()))<0)
-                {
-                    Collections.swap(playlist,j,j-1);
-                }
-            }
-        }*/
-        //setPlaylist();
+        askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,MY_PERMISSION_REQUEST_WRITE_EXTERNAL_STORAGE);        
     }
 
     private void askForPermission(String permission, Integer requestCode) {
